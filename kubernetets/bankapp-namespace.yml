@@ -1,0 +1,6 @@
+Kind: Namespace
+apiVersion: v1
+metadata:
+    name: bankapp-namespace
+    lables:
+      app: bankapp-namespace
