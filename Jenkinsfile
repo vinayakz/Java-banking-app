@@ -23,7 +23,7 @@ pipeline {
         stage('Git: Code Checkout') {
             steps {
                 script{
-                    code_checkout("https://github.com/vinayakz/Java-banking-app.git","DevOps")
+                    code_checkout("https://github.com/vinayakz/Java-banking-app.git","master")
                 }
             }
         }
