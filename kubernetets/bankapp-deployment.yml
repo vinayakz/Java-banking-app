@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: bankapp-eks:v2
+        image: vinayakzdk/springboot-bankapp:v2
         ports:
         - containerPort: 8080
         env:
